@@ -1,0 +1,10 @@
+{
+  "note": "Who may decide on a roadmap change proposal. Sample roster; at pilot, roles come from single sign-on groups. The tool's own id can never decide.",
+  "tool_id": "f2r",
+  "roles": {
+    "product_owner": ["po-01"],
+    "tech_lead": ["tl-04"],
+    "sponsor": ["sp-02"]
+  },
+  "decide_roles": ["product_owner"]
+}

@@ -1,0 +1,20 @@
+name: Problem found in use
+description: A wrong figure, a misleading reason, or a rejected row that should have been accepted
+labels: ["bug"]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened, and what should have happened
+    validations:
+      required: true
+  - type: textarea
+    id: repro
+    attributes:
+      label: Smallest input that shows it
+      description: Synthetic rows only. Never paste real user identifiers or real usage data.
+  - type: dropdown
+    id: impact
+    attributes:
+      label: Was it relied on in a decision?
+      options: ["No", "Yes - see the incident runbook in OPERATIONS.md"]

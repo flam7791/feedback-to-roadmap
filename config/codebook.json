@@ -1,0 +1,26 @@
+{
+  "version": "1.0",
+  "owner": "product owner",
+  "note": "Theme rules for the HR policy assistant. Owned by the product owner; changing a theme or keyword is a product decision, recorded in CHANGELOG, followed by `f2r measure` on the gold sets. Keywords are lowercase phrases matched on word boundaries.",
+  "themes": [
+    {"id": "T01", "name": "Answers ignore my country's rules", "kind": "problem",
+     "keywords": ["my country", "local policy", "local rules", "uk rules", "collective agreement", "works council", "country-specific", "head office", "works differently"]},
+    {"id": "T02", "name": "Cannot see where an answer comes from", "kind": "problem",
+     "keywords": ["source", "sources", "cite", "which policy", "link to the", "reference to the", "actual policy", "check it anyway"]},
+    {"id": "T03", "name": "Outdated policy content", "kind": "problem",
+     "keywords": ["out of date", "outdated", "old version", "was replaced", "still mentions the old", "2024"]},
+    {"id": "T04", "name": "Wants personal HR data (balances, payslips)", "kind": "problem",
+     "keywords": ["days i have left", "payslip", "holiday balance", "my balance", "overtime hours", "remaining days", "my own situation"]},
+    {"id": "T05", "name": "Answers too long or full of jargon", "kind": "problem",
+     "keywords": ["too long", "jargon", "three paragraphs", "short answer", "wall of text"]},
+    {"id": "T06", "name": "Wants answers in my language", "kind": "problem",
+     "keywords": ["in spanish", "in polish", "in italian", "in german", "my language", "only in english", "only speaks english", "translate"]},
+    {"id": "T07", "name": "Cannot open or sign in", "kind": "problem",
+     "keywords": ["won't open", "signing in", "sign in", "access denied", "keeps loading", "login"]},
+    {"id": "T08", "name": "Praise", "kind": "praise",
+     "keywords": ["saved me", "really useful", "helpful", "great for", "thanks"]},
+    {"id": "T09", "name": "Managers need answers about their team", "kind": "problem",
+     "keywords": ["as a manager", "my team's", "my direct reports"]}
+  ],
+  "severity_markers": ["gave up", "emailed hr", "had to call", "stopped using", "don't use it", "useless", "couldn't", "wrong"]
+}

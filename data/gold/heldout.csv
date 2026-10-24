@@ -1,0 +1,49 @@
+id,text,themes
+G-01,"Our sick leave rules in Spain are not the same as the group ones, it mixed them up",T01
+G-02,The bot keeps quoting the UK handbook to me although I'm based in Munich,T01
+G-03,"Answer was fine for France, useless for anyone in Poland",T01
+G-04,Please add the Italian national contract (CCNL) rules,T01
+G-05,It told me 25 days of holiday but in Germany we have 30,T01
+G-06,Where does it get this from? No way to verify,T02
+G-07,I want the paragraph number of the policy so I can show my manager,T02
+G-08,Can you show the document it used?,T02
+G-09,"Sounds confident, but I couldn't find the rule anywhere in the handbook",T02
+G-10,It referenced the old relocation package that we stopped in 2025,T03
+G-11,The mileage rate is last year's,T03
+G-12,Information is stale,T03
+G-13,"The remote working answer was out of date, we have a new hybrid policy since June",T03
+G-14,How much holiday do I still have this year? It just pointed me to the policy,T04
+G-15,I need to know when my contract ends and it can't tell me,T04
+G-16,Can it show my last three payslips?,T04
+G-17,Wanted to know my bonus amount,T04
+G-18,Way too wordy,T05
+G-19,I just want yes or no,T05
+G-20,"Answers read like a legal document, hard to follow",T05
+G-21,Can we get it in French please?,T06
+G-22,Half my team doesn't read English well enough to use it,T06
+G-23,Hablamos español en la oficina; el asistente solo responde en inglés,T06
+G-24,It won't load since the update,T07
+G-25,Getting a blank screen in Teams,T07
+G-26,I can't log in from the laptop at home,T07
+G-27,Very handy for the expenses questions,T08
+G-28,"Love it, quick and clear",T08
+G-29,It saved me a call to HR this morning,T08
+G-30,As a team lead I want to check what my people are entitled to,T09
+G-31,Need answers on how to approve leave for someone in my team,T09
+G-32,Can it book a desk for me?,
+G-33,Is this going to replace HR?,
+G-34,"Didn't try it yet, no time",
+G-35,The colours are hard to read,
+G-36,Would be great on my phone,
+G-37,"Gave me the group rule, and there was no link so I couldn't check whether it applied in Germany",T01;T02
+G-38,"Too long, and still mentions the 2024 travel limits",T05;T03
+G-39,"In Polish please, and with our local rules",T06;T01
+G-40,"Not helpful, it does not know my remaining leave",T04
+G-41,"Helpful answer, but it was about the old version of the policy",T08;T03
+G-42,Sources are cited nicely now,T08
+G-43,The source of truth for leave is the HR system and it can't see it,T04
+G-44,My works council asked whether the assistant is allowed to process our questions,
+G-45,It says sign in to see my balance but nothing happens,T04;T07
+G-46,"Thanks, but the answer did not apply to Spain",T01
+G-47,The answers about overtime pay were for head office staff only,T01
+G-48,It gets confused by long questions,

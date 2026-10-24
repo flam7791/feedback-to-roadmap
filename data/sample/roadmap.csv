@@ -1,0 +1,9 @@
+id,title,themes,reach,impact,confidence,effort,proposed_by,status
+R1,Content refresh: re-index the 2026 HR policies,T03,200,2,0.8,3,sponsor,planned
+R2,"Country policy packs (Germany, France, Spain first)",T01,90,2,0.5,5,team,planned
+R3,Cite the source document and section in every answer,T02,70,1,0.5,2,team,planned
+R4,Dark mode and a new chat theme,,120,0.5,0.8,1,team,candidate
+R5,Answer in the user's language,T06,60,1,0.5,3,team,candidate
+R6,Leave-balance lookup through the HR system,T04,100,2,0.5,13,users,candidate
+R7,Shorter answers by default,T05,80,0.5,0.8,1,team,candidate
+R8,Manager toolkit: policy questions about one's team,T09,30,1,0.5,5,sponsor,candidate

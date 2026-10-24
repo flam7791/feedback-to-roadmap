@@ -1,0 +1,39 @@
+name: User story
+description: A backlog item the team can estimate and deliver in one sprint
+title: "US-XX: "
+labels: ["story"]
+body:
+  - type: textarea
+    id: story
+    attributes:
+      label: Story
+      description: As a <user>, I want <capability>, so that <outcome>.
+    validations:
+      required: true
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: Acceptance criteria
+      description: Observable checks. A reviewer must be able to verify each without asking the author.
+      placeholder: "- [ ] Given ..., when ..., then ..."
+    validations:
+      required: true
+  - type: dropdown
+    id: priority
+    attributes:
+      label: Priority
+      options: [Must, Should, Could]
+    validations:
+      required: true
+  - type: input
+    id: evidence
+    attributes:
+      label: Evidence or hypothesis this serves
+      description: Link the discovery hypothesis, pilot finding or incident behind the story.
+  - type: checkboxes
+    id: ready
+    attributes:
+      label: Definition of Ready
+      options:
+        - label: Outside dependencies resolved or named with an owner and a date
+        - label: Estimated at 8 points or fewer

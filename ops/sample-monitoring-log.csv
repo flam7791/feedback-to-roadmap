@@ -1,0 +1,4 @@
+cycle,product_owner,items,minutes_to_decision,coding_minutes_per_100,changes_proposed,changes_accepted,rejections_with_reason,spot_check_corrections,flags,flags_false_positive,unauthorised_changes,note
+1,po-01,124,95,22,12,11,1,,1,0,0,SAMPLE DATA - invented values showing the log format
+2,po-07,210,140,41,9,6,3,2,0,0,0,SAMPLE DATA - coding over target; model coding gate becomes the priority
+3,po-12,88,60,18,7,7,0,0,2,1,0,SAMPLE DATA - one flag was an ordinary sentence

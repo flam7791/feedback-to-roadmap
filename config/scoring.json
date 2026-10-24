@@ -1,0 +1,19 @@
+{
+  "version": "1.0",
+  "owner": "product owner",
+  "note": "How evidence turns into proposed RICE changes. Owned by the product owner. Reach is in target users affected per quarter; confidence is a share. Impact and effort are never changed by the tool.",
+  "tiers": [
+    {"name": "strong", "min_users": 15, "min_channels": 2, "min_segments": 2, "confidence": 0.8},
+    {"name": "moderate", "min_users": 6, "min_channels": 1, "min_segments": 1, "confidence": 0.5},
+    {"name": "weak", "min_users": 1, "min_channels": 1, "min_segments": 1, "confidence": 0.3}
+  ],
+  "no_evidence_confidence": 0.2,
+  "reach_from_tiers": ["strong", "moderate"],
+  "reach_change_threshold": 0.25,
+  "capacity_points": 10,
+  "expensive_effort_share": 0.5,
+  "silent_segment_ratio": 0.5,
+  "spike": {"min_items": 5, "share_in_one_week": 0.6},
+  "new_theme_min_items": 3,
+  "quotes_per_theme": 3
+}
